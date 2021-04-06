@@ -117,7 +117,7 @@ export default function Home() {
           <img
             src="/vercel.svg"
             alt="Vercel Logo"
-            className="h-4 ml-2 filter"
+            className="h-4 ml-2 filter dark:invert"
           />
         </a>
       </footer>

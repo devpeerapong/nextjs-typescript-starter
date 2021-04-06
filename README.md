@@ -7,7 +7,7 @@ Next.js starter setup with
 - Testing running with [Jest](https://jestjs.io) and [`@testing-library/react`](https://testing-library.com/docs/react-testing-library/intro/)
 - Linting with [ESLint](https://eslint.org/)
 - Formatting with [Prettier](https://prettier.io/)
-- Check staged file with [`lint-staged`](https://github.com/okonet/lint-staged) on pre-commit with `husky` [v4](https://github.com/typicode/husky/tree/master)
+- Check staged file with [`lint-staged`](https://github.com/okonet/lint-staged) on pre-commit with `husky` [v6](https://github.com/typicode/husky/tree/master)
 
 ## How to use
 
