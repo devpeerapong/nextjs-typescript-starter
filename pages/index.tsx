@@ -1,5 +1,8 @@
 import Head from "next/head";
+import Image from "next/image";
 import useDarkMode from "use-dark-mode";
+
+import vercelLogo from "../assets/vercel.svg";
 
 export default function Home() {
   const darkMode = useDarkMode(false, {
@@ -114,8 +117,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{" "}
-          <img
-            src="/vercel.svg"
+          <Image
+            src={vercelLogo}
+            width={70}
+            height={16}
             alt="Vercel Logo"
             className="h-4 ml-2 filter dark:invert"
           />

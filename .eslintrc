@@ -1,0 +1,16 @@
+{
+  "extends": ["next", "plugin:@typescript-eslint/recommended", "prettier"],
+  "plugins": ["jest-dom", "testing-library"],
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["plugin:jest-dom/recommended", "plugin:testing-library/react"]
+    }
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}
