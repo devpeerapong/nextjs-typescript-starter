@@ -19,9 +19,9 @@
     "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^13.1.6",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^26.0.22",
     "@types/node": "^15.0.1",
     "@types/react": "^17.0.3",
@@ -37,7 +37,6 @@
     "is-ci": "^3.0.0",
     "is-docker": "^2.2.1",
     "jest": "^27.1.0",
-    "jest-circus": "^27.1.0",
     "jest-watch-typeahead": "^0.6.4",
     "lint-staged": "^11.1.2",
     "postcss": "^8.3.6",
