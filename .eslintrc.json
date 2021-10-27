@@ -1,5 +1,9 @@
 {
-  "extends": ["next", "plugin:@typescript-eslint/recommended", "prettier"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
   "plugins": ["jest-dom", "testing-library"],
   "overrides": [
     {

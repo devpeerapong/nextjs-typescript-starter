@@ -13,7 +13,7 @@
     "prepare": "is-ci || is-docker || husky install"
   },
   "dependencies": {
-    "next": "^11.1.0",
+    "next": "^12.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "use-dark-mode": "^2.3.1"
@@ -22,33 +22,33 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^26.0.22",
-    "@types/node": "^15.0.1",
-    "@types/react": "^17.0.3",
-    "@typescript-eslint/eslint-plugin": "^4.27.0",
-    "@typescript-eslint/parser": "^4.27.0",
-    "autoprefixer": "^10.3.3",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^11.1.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.6",
+    "@types/react": "^17.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "autoprefixer": "^10.3.7",
+    "eslint": "7",
+    "eslint-config-next": "^12.0.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest-dom": "^3.9.0",
-    "eslint-plugin-testing-library": "^4.12.0",
-    "husky": "^7.0.2",
-    "is-ci": "^3.0.0",
-    "is-docker": "^2.2.1",
-    "jest": "^27.1.0",
-    "jest-watch-typeahead": "^0.6.4",
-    "lint-staged": "^11.1.2",
-    "postcss": "^8.3.6",
-    "prettier": "^2.3.2",
-    "react-app-polyfill": "^2.0.0",
-    "tailwindcss": "^2.2.8",
-    "typescript": "^4.4.2"
+    "eslint-plugin-jest-dom": "^3.9.2",
+    "eslint-plugin-testing-library": "^5.0.0",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "is-docker": "^3.0.0",
+    "jest": "^27.3.1",
+    "jest-watch-typeahead": "^1.0.0",
+    "lint-staged": "^11.2.6",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.17",
+    "typescript": "^4.4.4"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
       "yarn format",
       "yarn lint"
     ]
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }

@@ -2,8 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import useDarkMode from "use-dark-mode";
 
-import vercelLogo from "../assets/vercel.svg";
-
 export default function Home() {
   const darkMode = useDarkMode(false, {
     classNameLight: "light",
@@ -118,7 +116,7 @@ export default function Home() {
         >
           Powered by{" "}
           <Image
-            src={vercelLogo}
+            src="/vercel.svg"
             width={70}
             height={16}
             alt="Vercel Logo"
